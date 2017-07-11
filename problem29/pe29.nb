@@ -1,0 +1,76 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1884,         66]
+NotebookOptionsPosition[      1436,         47]
+NotebookOutlinePosition[      1793,         63]
+CellTagsIndexPosition[      1750,         60]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Length", "@", 
+   RowBox[{"Union", "@", 
+    RowBox[{"Flatten", "@", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"a", "^", "b"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"a", ",", "2", ",", "100"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"b", ",", "2", ",", "100"}], "}"}]}], "]"}]}]}]}], "\:ff1b", 
+  "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.708725787236306*^9, 3.7087258284951487`*^9}, {
+   3.7087261290538692`*^9, 3.708726147398937*^9}, {3.708726231892569*^9, 
+   3.7087262355732813`*^9}, 
+   3.708726280537611*^9},ExpressionUUID->"aaea00f5-700f-4b92-8ab7-\
+778a6bc21d71"],
+
+Cell[BoxData["9183"], "Output",
+ CellChangeTimes->{{3.708726140571425*^9, 3.7087261492801313`*^9}, 
+   3.708726237938416*^9},ExpressionUUID->"e748aecd-64e1-40d4-9ec6-\
+7d82b14f8571"]
+}, Open  ]]
+},
+WindowSize->{808, 690},
+WindowMargins->{{Automatic, 254}, {-29, Automatic}},
+FrontEndVersion->"11.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (April 27, \
+2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 655, 17, 54, "Input", "ExpressionUUID" -> \
+"aaea00f5-700f-4b92-8ab7-778a6bc21d71"],
+Cell[1238, 41, 182, 3, 32, "Output", "ExpressionUUID" -> \
+"e748aecd-64e1-40d4-9ec6-7d82b14f8571"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
